@@ -13,11 +13,10 @@ body, html{
 }
 
 header{
-
-    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 50vw;
     background-color: gray;
 
 }
@@ -31,6 +30,7 @@ span#burger{
     display: block;
     background-color: rgb(61, 61, 61);
     padding: 10px;
+    border-radius: 50%;
     color: white;
     text-align: center;
 
@@ -47,21 +47,28 @@ menu{
 }
 
 menu > ul{
+    display: flex;
+    width: 100vw;
+    margin-top: 15px;
+    gap: 5vw;
+    justify-content: center;
+    flex-direction: row;
     list-style-type: none;
 }
 
 menu a{
     display: block;
-    padding: 10px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     background-color: rgb(83, 83, 83);
+    border-radius: 10px;
     color: white;
-    border-top: 2px solid gray;
+
 }
 
 menu a:hover{
-    background-color: gray;
+    background-color: rgb(187, 187, 187);
 }
 
 main{
@@ -82,4 +89,23 @@ article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    main{
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        width: 60vw;
+    }
 }
