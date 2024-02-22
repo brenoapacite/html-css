@@ -50,7 +50,7 @@ menu > ul{
     display: flex;
     width: 100vw;
     margin-top: 15px;
-    gap: 5vw;
+    gap: 1vw;
     justify-content: center;
     flex-direction: row;
     list-style-type: none;
