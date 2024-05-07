@@ -12,30 +12,30 @@ Grandes telas: acima de 1200px
  */
 
 
- @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     span#burger {
         display: none;
     }
 
-    menu{
+    menu {
         display: block;
     }
- }
+}
 
- @media screen and (min-width: 768px) and (max-width: 992px) {
-    main{
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
         width: 70vw;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    main{
+    main {
         width: 60vw;
     }
 }
 
-@media screen and (min-width: 1200px){
-    main{
+@media screen and (min-width: 1200px) {
+    main {
         width: 60vw;
     }
 }
